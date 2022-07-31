@@ -1,4 +1,5 @@
 import React from "react";
+import Progressbar from './Progressbar';
 
 const display = false;
 
@@ -17,6 +18,8 @@ function Inspect() {
         {
           display && 
           <>
+            <h3 className="heading">Progress Report</h3>
+            <Progressbar bgcolor="#99ccff" progress='55'  height={30} />
             <table border="1">
 				      <thead>
 					      <tr>
